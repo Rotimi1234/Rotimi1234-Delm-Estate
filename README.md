@@ -1,7 +1,6 @@
-## THIS IS THE FIRST PART OF THE WEB APPLICATION 
-Video Part_1: https://youtu.be/CQeV-i6Dp84 \
-Video Part_2: https://youtu.be/OqDYLrY4HWA \
-https://github.com/webdesigntuts/RealEstateAppFull
+## Dealm Estate is a Real Estate roject 
+It fetches real life data api from a graphql database with strapi headless CMS
+https://github.com/Rotimi1234/Rotimi1234-Delm-Estate/
 
 ## Available Scripts
 
