@@ -23,7 +23,7 @@ const Property = () => {
               info={{
                 id: params.propertyId,
                 category: "Buy",
-                imageSource: `https://real-estate012.herokuapp.com${house.attributes.Preview_Image.data.attributes.url}`,
+                imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
                 city: `${house.attributes.location.data.attributes.City}`,
                 neighbourhood: `${house.attributes.Neighbourhood}`,
                 street: `${house.attributes.Street}`,

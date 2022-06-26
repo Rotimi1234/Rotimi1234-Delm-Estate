@@ -31,7 +31,7 @@ const FilteredCards = ({ houses }) => {
           secondClass={styles.card}
           info={{
             id: house.id,
-            imageSource: `https://real-estate012.herokuapp.com${house.attributes.Preview_Image.data.attributes.url}`,
+            imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
             category: checkHouseCategory(house),
             city: `${house.attributes.location.data.attributes.City}`,
             neighbourhood: `${house.attributes.Neighbourhood}`,
