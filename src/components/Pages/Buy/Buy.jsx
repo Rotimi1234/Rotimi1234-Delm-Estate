@@ -24,7 +24,7 @@ const Buy = () => {
                   info={{
                     id: house.id,
                     category: "Buy",
-                    imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
+                    imageSource: `http://localhost:1337${house.attributes.Preview_Image.data.attributes.url}`,
                     city: `${house.attributes.location.data.attributes.City}`,
                     neighbourhood: `${house.attributes.Neighbourhood}`,
                     street: `${house.attributes.Street}`,

@@ -1,5 +1,5 @@
 import styles from "./PriceRange.module.scss";
-import { useState, useEffect, useContext, useCallback } from "react";
+import { useState, useEffect, useContext, useMemo, useCallback } from "react";
 import SearchContext from "../SearchContext";
 import debounce from "lodash.debounce";
 

@@ -7,11 +7,9 @@ import Rent from "./components/Pages/Rent/Rent";
 import Buy from "./components/Pages/Buy/Buy";
 import Search from "./components/Pages/Search/Search";
 import Property from "./components/Pages/Property/Property";
-import About from "./components/Pages/About/About";
-import Upload from "./components/Pages/Uplod/Upload";
 
 const client = new ApolloClient({
-  uri: "https://real-estate012.herokuapp.com/graphql",
+  uri: "http://localhost:1337/graphql",
   cache: new InMemoryCache(),
 });
 
@@ -38,10 +36,18 @@ function App() {
           <Route path="property">
             <Route path=":propertyId" element={<Property />} />
           </Route>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/Uplod" element={<Upload />} />
+          <Route
+            path="/about"
+            element={
+              <main>
+                <Navbar />
+                <h1 style={{ marginTop: "3rem", color: "rgb(26, 55, 58)" }}>
+                  ABOUT
+                </h1>
+              </main>
+            }
+          />
         </Routes>
-        
       </div>
     </ApolloProvider>
   );

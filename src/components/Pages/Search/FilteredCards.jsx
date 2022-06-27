@@ -31,7 +31,7 @@ const FilteredCards = ({ houses }) => {
           secondClass={styles.card}
           info={{
             id: house.id,
-            imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
+            imageSource: `http://localhost:1337${house.attributes.Preview_Image.data.attributes.url}`,
             category: checkHouseCategory(house),
             city: `${house.attributes.location.data.attributes.City}`,
             neighbourhood: `${house.attributes.Neighbourhood}`,
