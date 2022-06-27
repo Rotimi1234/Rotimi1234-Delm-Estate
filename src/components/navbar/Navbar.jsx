@@ -31,7 +31,7 @@ const Navbar = ({ BurgerColour }) => {
       <nav>
         {/* LOGO */}
         <div className={styles.brand_logo}>
-          <Link to="/">Real</Link>
+          <Link to="/">Delm</Link>
         </div>
 
         {/* NAV-BURGER */}
@@ -60,6 +60,7 @@ const Navbar = ({ BurgerColour }) => {
           <MenuLink url="buy" path="Buy" />
           <MenuLink url="rent" path="Rent" />
           <MenuLink url="search" path="Search" />
+          <MenuLink url="Uplod" path="Upload" />
           <MenuLink url="about" path="About" />
           <Link to="/auth" className={styles.login}>
             <span>Login</span>

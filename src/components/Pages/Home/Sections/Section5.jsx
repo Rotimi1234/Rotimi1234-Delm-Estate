@@ -7,8 +7,8 @@ const Section5 = () => {
   return (
     <section className={styles.section_5}>
       <div className={styles.action}>
-        <h1>Your Best Partner To Find New House</h1>
-        <ArrowButton text="Get Started" path="search" />
+        <h1>Are you an Agent? Looking to advertise a House</h1>
+        <ArrowButton text="Get Started" path="Uplod" url="Upload" />
       </div>
       <div className={styles.image_container_1}>
         <img src={building4} alt="building" />

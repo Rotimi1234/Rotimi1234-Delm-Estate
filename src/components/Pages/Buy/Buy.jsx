@@ -3,7 +3,7 @@ import Card from "../../card/Card";
 import { useQuery } from "@apollo/client";
 import { BUY_CARDS } from "../../../utils/Queries";
 import Navbar from "../../navbar/Navbar";
-
+import Footer from "../Home/Sections/Footer";
 const Buy = () => {
   const { loading, data, error } = useQuery(BUY_CARDS);
 
@@ -24,7 +24,7 @@ const Buy = () => {
                   info={{
                     id: house.id,
                     category: "Buy",
-                    imageSource: `http://localhost:1337${house.attributes.Preview_Image.data.attributes.url}`,
+                    imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
                     city: `${house.attributes.location.data.attributes.City}`,
                     neighbourhood: `${house.attributes.Neighbourhood}`,
                     street: `${house.attributes.Street}`,
@@ -40,6 +40,7 @@ const Buy = () => {
           )}
         </div>
       </div>
+      <Footer/>
     </main>
   );
 };

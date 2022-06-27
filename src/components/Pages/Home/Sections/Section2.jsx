@@ -21,7 +21,7 @@ const Section_2 = () => {
             Find your place with and immersive photo experience and the most
             listings, including things you won't find anywhere else
           </p>
-          <ArrowButton text="Search Houses" path="buy" />
+          <ArrowButton text="Search Houses" path="/buy" />
         </div>
         <div className={styles.rent}>
           <h3>Rent a Home</h3>
@@ -29,7 +29,7 @@ const Section_2 = () => {
             We're creating a seasmless online expirience - from shopping on the
             largest rental network , to applying , to paying rent.
           </p>
-          <ArrowButton text="See Your Options" path="rent" />
+          <ArrowButton text="See Your Options" path="/rent" />
         </div>
 
         <div className={styles.sell}>
@@ -38,7 +38,7 @@ const Section_2 = () => {
             Wether you get a cash offer throught Real Offers or choose to sell
             traditionally, we can help you navigate a successful sale.
           </p>
-          <ArrowButton text="Use Filters" path="search" />
+          <ArrowButton text="Use Filters" path="/search" />
         </div>
       </div>
     </section>

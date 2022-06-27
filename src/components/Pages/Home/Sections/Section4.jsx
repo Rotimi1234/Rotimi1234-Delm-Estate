@@ -16,7 +16,7 @@ const Section4 = () => {
         <div className={styles.info}>
           <p>
             Search and find your dream house at affordable prices, but with the
-            best quality. Only available in Real!
+            best quality. Only available in Delm!
           </p>
 
           <div className={styles.rows}>

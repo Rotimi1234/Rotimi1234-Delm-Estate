@@ -13,7 +13,7 @@ const Footer = () => {
     <footer>
       <ul className={styles.brand}>
         <li>
-          <span>Real</span>
+          <span>Delm</span>
         </li>
         <li>
           <span>Our Location</span>
@@ -41,13 +41,13 @@ const Footer = () => {
           <span>Services</span>
         </li>
         <li>
-          <Link to="buy">Buy a House</Link>
+          <Link to="/buy">Buy a House</Link>
         </li>
         <li>
-          <Link to="rent">Rent a House</Link>
+          <Link to="/rent">Rent a House</Link>
         </li>
         <li>
-          <Link to="search">Sell a House</Link>
+          <Link to="/Uplod">Sell a House</Link>
         </li>
       </ul>
 
@@ -59,10 +59,10 @@ const Footer = () => {
           <Link to="/about">About Us</Link>
         </li>
         <li>
-          <Link to="/">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </li>
         <li>
-          <Link to="/">Our Team</Link>
+          <Link to="/team">Our Team</Link>
         </li>
       </ul>
 

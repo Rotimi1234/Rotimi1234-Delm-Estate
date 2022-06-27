@@ -27,7 +27,7 @@ const Section1 = () => {
           <h1>Easy Way To Find Your Dream House</h1>
           <p>
             Search and find your dream house at affordable prices , but with the
-            best quality. Only available in Real
+            best quality. Only available in Delm
           </p>
 
           {/* SEARCH BOX */}
