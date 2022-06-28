@@ -90,10 +90,13 @@ const Footer = () => {
         </li>
         <li>
           <div className={styles.subscribe_input}>
-            <input type="text" placeholder="Email Andress" />
-            <button>
+          <form method="POST" action="https://formsubmit.co/damilarerotimi29@gmail.com">
+            <input type="email" id="email" name="email" placeholder="Email Andress" required />
+            <input type="hidden" name="_captcha" value="false"></input>
+            <button type="submit">
               <BsArrowRight />
             </button>
+          </form>
           </div>
         </li>
       </ul>
