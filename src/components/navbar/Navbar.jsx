@@ -62,14 +62,14 @@ const Navbar = ({ BurgerColour }) => {
           <MenuLink url="search" path="Search" />
           <MenuLink url="Uplod" path="Upload" />
           <MenuLink url="about" path="About" />
-          <Link to="/auth" className={styles.login}>
-            <span>Login</span>
+          <Link to="/donate" className={styles.login}>
+            <span>Donate</span>
           </Link>
         </ul>
 
         {/* Login */}
-        <Link to="/auth" className={styles.login_container}>
-          <span style={{ color: BurgerColour }}>Login</span>
+        <Link to="/donate" className={styles.login_container}>
+          <span style={{ color: BurgerColour }}>Donate</span>
           <BsArrowRight style={{ color: BurgerColour }} />
         </Link>
       </nav>
