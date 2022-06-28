@@ -11,6 +11,7 @@ import About from "./components/Pages/About/About";
 import Upload from "./components/Pages/Uplod/Upload";
 import Team from "./components/Pages/Team/Team";
 import Contact from "./components/Pages/Contact/Contact";
+import Donate from "./components/Pages/Donate/Donate";
 
 const client = new ApolloClient({
   uri: "https://real-estate012.herokuapp.com/graphql",
@@ -44,6 +45,7 @@ function App() {
           <Route path="/Uplod" element={<Upload />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
         
       </div>
