@@ -13,7 +13,7 @@ import Team from "./components/Pages/Team/Team";
 import Contact from "./components/Pages/Contact/Contact";
 
 const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
+  uri: "https://real-estate012.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
