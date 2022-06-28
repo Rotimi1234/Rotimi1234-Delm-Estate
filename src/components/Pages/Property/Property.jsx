@@ -24,6 +24,7 @@ const Property = () => {
                 id: params.propertyId,
                 category: "Buy",
                 imageSource: `${house.attributes.Preview_Image.data.attributes.url}`,
+
                 city: `${house.attributes.location.data.attributes.City}`,
                 neighbourhood: `${house.attributes.Neighbourhood}`,
                 street: `${house.attributes.Street}`,
@@ -42,6 +43,34 @@ const Property = () => {
             <div
               style={{ marginTop: "2rem", marginBottom: "2rem", color: "#333" }}
             >
+
+              <div>
+              <div className={styles.containerss}>
+              <img 
+                src={house.attributes.Image1.data.attributes.url}
+                className={styles.small}
+                alt="img_preview"
+              />
+              
+              <img 
+                src={house.attributes.Image2.data.attributes.url}
+                className={styles.small}
+                alt="img_preview"
+              />
+
+              <img 
+                src={house.attributes.Image3.data.attributes.url}
+                className={styles.small}
+                alt="img_preview"
+              />
+
+              
+             
+              
+            </div>
+            </div>
+
+            
               <span>Description:</span>
               <p>{house.attributes.Description}</p>
             </div>

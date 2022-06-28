@@ -101,6 +101,27 @@ const ID_CARD = gql`
               }
             }
           }
+          Image1{
+            data{
+              attributes{
+                url
+              }
+            }
+          }
+          Image2{
+            data{
+              attributes{
+                url
+              }
+            }
+          }
+          Image3{
+            data{
+              attributes{
+                url
+              }
+            }
+          }
           location {
             data {
               attributes {

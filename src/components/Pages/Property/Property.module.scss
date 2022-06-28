@@ -18,3 +18,20 @@
     align-items: center;
     margin-top: 2rem;
 }
+
+.containerss{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .small{
+    border-radius: 8px;
+    background-color: #ebebeb;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin-right: 20px;
+  }
+  
+  
