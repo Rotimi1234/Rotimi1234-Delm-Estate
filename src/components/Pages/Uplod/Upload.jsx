@@ -25,7 +25,7 @@ const Upload = () => {
       <Navbar/>
       <div className="body">
       <div className="container">
-    <h2 className="title">Get In Touch</h2>
+    <h2 className="title">Upload your House</h2>
     <form method="POST" action="https://formsubmit.co/damilarerotimi29@gmail.com" enctype="multipart/form-data">
       <div className="input-field username">
         <input type="text" id="username" name="username" placeholder="Username"/>
@@ -36,7 +36,10 @@ const Upload = () => {
       <div className="input-field">
         <input type="email" id="email" name="email" placeholder="Email"/>
       </div>
-      <input type="file" id='file' name="attachment" onChange={imageChange} accept="image/png, image/jpeg, image/jpg" />
+      <div className="input-field">
+        <input type="number" id="number" name="number" placeholder="Your Number"/>
+      </div>
+      <input type="file" id='file' name="attachment" multiple onChange={imageChange} accept="image/png, image/jpeg, image/jpg" />
       <div className="input-field">
       {selectedImage && (
         <>
