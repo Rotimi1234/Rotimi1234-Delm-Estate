@@ -80,6 +80,8 @@ const PriceRange = () => {
         />
         <select name="minPrice" onChange={minPriceHandler}>
           <option value={MIN_PRICE}>ANY</option>
+          <option value="20000">20k</option>
+          <option value="50000">50k</option>
           <option value="100000">100k</option>
           <option value="200000">200k</option>
           <option value="500000">500k</option>
@@ -97,6 +99,9 @@ const PriceRange = () => {
           <option value="100000">100k</option>
           <option value="200000">200k</option>
           <option value="500000">500k</option>
+          <option value="1000000">1M</option>
+          <option value="1500000">1.5M</option>
+          <option value="2000000">2M</option>
         </select>
       </div>
     </div>
