@@ -4,6 +4,9 @@ import { useQuery } from "@apollo/client";
 import { ID_CARD } from "../../../utils/Queries";
 import Card from "../../card/Card";
 import styles from "./Property.module.scss";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+import React from "react";
 
 const Property = () => {
   let params = useParams();
@@ -11,6 +14,9 @@ const Property = () => {
     variables: { id: params.propertyId },
   });
 
+
+
+  
   const queryHandler = () => {
     if (loading) return <h1>LOADING</h1>;
     if (error) return <h1>ERROR</h1>;
@@ -46,24 +52,27 @@ const Property = () => {
 
               <div>
               <div className={styles.containerss}>
+            <Zoom>
               <img 
                 src={house.attributes.Image1.data.attributes.url}
                 className={styles.small}
                 alt="img_preview"
               />
-              
+            </Zoom>
+            <Zoom>
               <img 
                 src={house.attributes.Image2.data.attributes.url}
                 className={styles.small}
                 alt="img_preview"
               />
-
+            </Zoom>
+            <Zoom>
               <img 
                 src={house.attributes.Image3.data.attributes.url}
                 className={styles.small}
                 alt="img_preview"
               />
-
+            </Zoom>
               
              
               
