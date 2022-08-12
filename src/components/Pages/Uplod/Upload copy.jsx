@@ -21,11 +21,11 @@ const Upload = () => {
   };
   return (
     <>
-    <main>
+    <div>
       <Navbar/>
-      <div className="bdy">
+      <div className="body">
       <div className="container">
-    <h2 className="tile">Upload your House</h2>
+    <h2 className="title">Upload your House</h2>
     <form method="POST" action="https://formsubmit.co/damilarerotimi29@gmail.com" enctype="multipart/form-data">
       <div className="input-field username">
         <input type="text" id="username" name="username" placeholder="Username"/>
@@ -36,15 +36,12 @@ const Upload = () => {
       <div className="input-field">
         <input type="email" id="email" name="email" placeholder="Email"/>
       </div>
-      <div className="input-field">
-        <input type="number" id="number" name="number" placeholder="Your Number"/>
-      </div>
-      <input type="file" id='file' name="attachment" multiple onChange={imageChange} accept="image/png, image/jpeg, image/jpg" />
+      <input type="file" id='file' name="attachment" onChange={imageChange} accept="image/png, image/jpeg, image/jpg" />
       <div className="input-field">
       {selectedImage && (
         <>
         
-        <img alt='Preview_Image' src={URL.createObjectURL(selectedImage)} width='300px' height={200}/>
+        <img src={URL.createObjectURL(selectedImage)} width='300px' height={200}/>
         <button className="btn" onClick={removeSelectedImage}> Remove This Image</button>
         </>
       )}
@@ -58,7 +55,7 @@ const Upload = () => {
   </div>
   </div>
       <Footer/>
-    </main>
+    </div>
     </>
   )
 }

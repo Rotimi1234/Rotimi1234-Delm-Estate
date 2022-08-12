@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../Home/Sections/Footer'
+import Donateinfo from './Donateinfo'
 
 const Contact = () => {
   return (
-    <div>
+    <main>
       <Navbar/>
-      
+      <Donateinfo />
       <Footer/>
-    </div>
+    </main>
   )
 }
 

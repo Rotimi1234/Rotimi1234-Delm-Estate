@@ -1,0 +1,12 @@
+.card_btn {
+
+
+
+        
+    }
+
+    .card_btn:hover {
+        background: rgb(218, 17, 17);
+        border-color: var(--dark-green);
+        color: var(--dark-green);
+    }

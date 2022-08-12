@@ -6,7 +6,7 @@ const Section4 = () => {
     <section className={styles.section_4}>
       <div className={styles.section_4_title}>
         <h1>
-          Helps People To Getting Their Dream House For More Than 17 Years
+          Helps People To Getting Their Dream House For More Than 1 Years
         </h1>
       </div>
       <div className={styles.section_4_content}>
@@ -24,13 +24,13 @@ const Section4 = () => {
             <div className={styles.row_1}>
               {/* FACT1 */}
               <div className={styles.fact}>
-                <h2>10.234</h2>
+                <h2>10</h2>
                 <h3>Completed Houses</h3>
               </div>
 
               {/* FACT2 */}
               <div className={styles.fact}>
-                <h2>11.234</h2>
+                <h2>11</h2>
                 <h3>Rented Houses </h3>
               </div>
             </div>
@@ -39,13 +39,13 @@ const Section4 = () => {
             <div className={styles.row_1}>
               {/* FACT1 */}
               <div className={styles.fact}>
-                <h2>2.157</h2>
+                <h2>2</h2>
                 <h3>Sold Houses</h3>
               </div>
 
               {/* FACT2 */}
               <div className={styles.fact}>
-                <h2>12.157</h2>
+                <h2>12</h2>
                 <h3>Happy Client</h3>
               </div>
             </div>

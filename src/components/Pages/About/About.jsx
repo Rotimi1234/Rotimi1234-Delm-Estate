@@ -6,12 +6,12 @@ import Footer from "../Home/Sections/Footer";
 
 const About = () => {
   return (
-    <div>
-        <Navbar/>
+    <main>
+      <Navbar/>
       <Section2/>
       <Section4/>
       <Footer/>
-    </div>
+    </main>
   )
 }
 

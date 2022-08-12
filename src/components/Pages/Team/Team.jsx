@@ -6,7 +6,7 @@ import img from './img.jpg'
 
 const Team = () => {
   return (
-    <div>
+    <main>
       <Navbar/>
       <div className="boy">
       <div className="card">
@@ -14,7 +14,8 @@ const Team = () => {
       <img src={img} alt="" />
     </div>
     <h2 className="profile-name">Rotimi Damilare</h2>
-    <small className="user-handle">@james_ford</small>
+    <small className="user-handle">dami-dev</small>
+    <small className="user-handle">FOUNDER & SOLE DEVELOPER</small>
     <div className="profile-actions">
       <button className="btn btn-primary">Follow</button>
       <button className="btn btn-icon">
@@ -25,7 +26,7 @@ const Team = () => {
   </div>
 
       <Footer/>
-    </div>
+    </main>
   )
 }
 

@@ -38,7 +38,7 @@ const Section_2 = () => {
             Wether you get a cash offer throught Real Offers or choose to sell
             traditionally, we can help you navigate a successful sale.
           </p>
-          <ArrowButton text="Use Filters" path="/search" />
+          <ArrowButton text="Upload" path="/Uplod" />
         </div>
       </div>
     </section>

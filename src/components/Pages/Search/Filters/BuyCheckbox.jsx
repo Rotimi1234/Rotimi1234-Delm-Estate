@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import SearchContext from "../SearchContext";
+
 const BuyCheckbox = () => {
   const { buy, setBuy } = useContext(SearchContext);
 

@@ -6,6 +6,7 @@ import {
   AiOutlineFacebook,
   AiOutlineInstagram,
   AiOutlineTwitter,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -16,22 +17,24 @@ const Footer = () => {
           <span>Delm</span>
         </li>
         <li>
-          <span>Our Location</span>
+          <span>Igbogbo, Ikorodu, Lagos</span>
         </li>
         <li>
-          <span>Call Us : +123 456 789</span>
+          <span>Call Us : +234 901 600 7209</span>
         </li>
         <li>
           <div className={styles.socials}>
-            <Link to="/">
-              <AiOutlineInstagram />
-            </Link>
-            <Link to="/">
-              <AiOutlineFacebook />
-            </Link>
-            <Link to="/">
-              <AiOutlineTwitter />
-            </Link>
+           
+            <a href="https://instagram.com/"><AiOutlineInstagram /></a>
+            
+            
+            <a href="https://facebook.com/"><AiOutlineFacebook /></a> 
+           
+            
+            <a href="https://twitter.com/"><AiOutlineTwitter /></a> 
+          
+            <a href="https://wa.link/28ljvq"><AiOutlineWhatsApp /></a> 
+           
           </div>
         </li>
       </ul>
@@ -71,7 +74,7 @@ const Footer = () => {
           <span>Support</span>
         </li>
         <li>
-          <Link to="/">FAQ's</Link>
+          <Link to="/faq">FAQ's</Link>
         </li>
         <li>
           <Link to="/">Support Center</Link>
@@ -84,6 +87,9 @@ const Footer = () => {
       <ul className={styles.subscribe}>
         <li>
           <span>Subscribe</span>
+        </li>
+        <li>
+          <p>You can E-mail us at <b>damilarerotimi29@gmail</b></p>
         </li>
         <li>
           <p>Subscribe to get the latest new and promo from us</p>
