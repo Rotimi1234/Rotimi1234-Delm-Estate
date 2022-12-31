@@ -62,10 +62,10 @@ const Card = ({ info, showInfo, secondClass }) => {
         <div className={styles.prices}>
           <h2
             style={showInfo.price ? {} : { display: "none" }}
-          >{`${convertPrice(info.price)}N`}</h2>
-          <h2 style={showInfo.rent ? {} : { display: "none" }}>{`${convertRent(
+          >{`N${convertPrice(info.price)}`}</h2>
+          <h2 style={showInfo.rent ? {} : { display: "none" }}>{`N${convertRent(
             info.rent
-          )} N / m`}</h2>
+          )} / Year`}</h2>
         </div>
         <div className={styles.card_btn}>
           <Link to={`/property/${info.id}`}>See More</Link>
